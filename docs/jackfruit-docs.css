@@ -1,0 +1,22 @@
+:root
+{
+    --jf-color-header: #82d173;
+
+    --jf-color-1: #6fc05e;
+    --jf-color-2: #7fd67e;
+    --jf-color-3: #95a3b3;
+    --jf-color-4: #4c2c69;
+    --jf-color-5: #42253b;
+
+}
+
+#jf-header
+{
+    background: linear-gradient(to bottom right, var(--jf-color-1) 50%, var(--jf-color-2));
+    color: white;
+}
+
+.green
+{
+    background-color: rgb(0, 219, 0);
+}
