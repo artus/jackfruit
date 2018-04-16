@@ -173,3 +173,35 @@ h6
 {
     border-radius: var(--jf-border-radius-big);
 }
+
+/*
+    Key-value
+*/
+.key-value
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: var(--blt-padding);
+}
+
+.key-value span:first-child
+{
+    font-weight: 600;
+}
+
+/*
+    Styling
+*/
+
+.shadow
+{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.line
+{
+    border-bottom: 1px solid var(--blt-color-2);
+    margin-bottom: var(--blt-padding);
+}
