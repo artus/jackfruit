@@ -1,7 +1,6 @@
 .row, .column
 {
     display: flex;
-    padding: var(--jf-padding);
 
     flex-basis: 0;
 }
