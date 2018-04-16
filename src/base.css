@@ -348,3 +348,8 @@ h6
     border-bottom: 1px solid var(--blt-color-2);
     margin-bottom: var(--blt-padding);
 }
+
+.last
+{
+    margin-right: 0;
+}

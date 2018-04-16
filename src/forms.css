@@ -4,6 +4,8 @@
     flex-direction: column;
 
     justify-content: stretch;
+
+    padding: var(--jf-padding);
 }
 
 input
@@ -25,4 +27,9 @@ input
 {
     margin-top: 0;
     margin-left: 0;
+}
+
+form-group label
+{
+    margin-bottom: var(--jf-padding-small);
 }
