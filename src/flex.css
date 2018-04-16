@@ -13,8 +13,6 @@
 .column
 {
     flex-direction: column;
-    height: 100%;
-    flex-grow: 1;
 }
 
 /*
@@ -34,6 +32,11 @@
 .space-evenly
 {
     justify-content: space-evenly
+}
+
+.space-center
+{
+    justify-content: center;
 }
 
 /*
