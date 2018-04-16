@@ -353,3 +353,18 @@ h6
 {
     margin-right: 0;
 }
+
+.scrollable-y
+{
+    overflow-y: auto;
+}
+
+.scrollable-x
+{
+    overflow-x: auto;
+}
+
+.scrollable
+{
+    overflow: auto;
+}

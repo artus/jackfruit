@@ -5,7 +5,7 @@
 
     justify-content: stretch;
 
-    padding: var(--jf-padding);
+    padding: var(--jf-padding-small);
 }
 
 input
