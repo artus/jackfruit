@@ -1,0 +1,22 @@
+.button-small, .button, .button-big
+{
+    border: 0;
+    border-radius: var(--jf-border-radius);
+    cursor: pointer;
+}
+
+.button-small
+{
+    padding: var(--jf-padding-small);
+}
+
+.button
+{
+    padding: var(--jf-padding);
+}
+
+.button-big
+{
+    padding: var(--jf-padding-big);
+    font-size: 1.3em;
+}

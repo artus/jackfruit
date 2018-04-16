@@ -1,0 +1,100 @@
+:root
+{
+    --jf-hover-transition: 0.2s;
+
+    --jf-color-primary-background: #2A69B0;
+    --jf-color-primary-foreground: white;
+    --jf-color-primary-background-hover: rgb(52, 123, 204);
+    --jf-color-primary-foreground-hover: white;
+
+ 
+    --jf-color-secondary-background: #54974B;
+    --jf-color-secondary-foreground: white;
+    --jf-color-secondary-background-hover: rgb(102, 185, 91);
+    --jf-color-secondary-foreground-hover: white;
+
+    --jf-color-danger-background: #D9534F;
+    --jf-color-danger-foreground: white;
+    --jf-color-danger-background-hover: #D9534F;
+    --jf-color-danger-foreground-hover: white;
+
+    --jf-color-warning-background: #F99421;
+    --jf-color-warning-foreground: rgba(0, 0, 0, 0.6);
+    --jf-color-warning-background-hover: rgb(255, 167, 66);
+    --jf-color-warning-foreground-hover: rgba(0, 0, 0, 0.6);
+
+    --jf-color-neutral-background: #E2E2E2;
+    --jf-color-neutral-foreground: rgba(0, 0, 0, 0.6);
+    --jf-color-neutral-background-hover: white;
+    --jf-color-neutral-foreground-hover: rgba(0, 0, 0, 0.8);
+}
+
+.primary
+{
+    background-color: var(--jf-color-primary-background);
+    color: var(--jf-color-primary-foreground);
+}
+
+.button.primary:hover, .primary-hover
+{
+    transition: var(--jf-hover-transition);
+
+    background-color: var(--jf-color-primary-background-hover);
+    color: var(--jf-color-primary-foreground-hover);
+}
+
+.secondary
+{
+    background-color: var(--jf-color-secondary-background);
+    color: var(--jf-color-secondary-foreground);
+}
+
+.button.secondary:hover, .secondary-hover
+{
+    transition: var(--jf-hover-transition);
+
+    background-color: var(--jf-color-secondary-background);
+    color: var(--jf-color-secondary-foreground);
+}
+
+.danger
+{
+    background-color: var(--jf-color-danger-background);
+    color: var(--jf-color-danger-foreground);
+}
+
+.button.danger:hover, .secondary-hover
+{
+    transition: var(--jf-hover-transition);
+
+    background-color: var(--jf-color-danger-background-hover);
+    color: var(--jf-color-danger-foreground-hover);
+}
+
+.warning
+{
+    background-color: var(--jf-color-warning-background);
+    color: var(--jf-color-warning-foreground);
+}
+
+.button.warning:hover, .warning-hover
+{
+    transition: var(--jf-hover-transition);
+
+    background-color: var(--jf-color-warning-background-hover);
+    color: var(--jf-color-warning-foreground-hover);
+}
+
+.neutral
+{
+    background-color: var(--jf-color-neutral-background);
+    color: var(--jf-color-neutral-foreground);
+}
+
+.button.neutral:hover, .neutral-hover
+{
+    transition: var(--jf-hover-transition);
+
+    background-color: var(--jf-color-neutral-background-hover);
+    color: var(--jf-color-neutral-foreground-hover);
+}
