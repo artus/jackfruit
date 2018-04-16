@@ -3,7 +3,6 @@
     display: flex;
 
     flex-basis: 0;
-    overflow: hidden;
 }
 
 .row

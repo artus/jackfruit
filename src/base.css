@@ -356,15 +356,20 @@ h6
 
 .scrollable-y
 {
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .scrollable-x
 {
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 
 .scrollable
 {
-    overflow: auto;
+    overflow: scroll;
+}
+
+.has-scrollable-child
+{
+    overflow: hidden;
 }
