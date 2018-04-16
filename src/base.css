@@ -33,7 +33,7 @@ body
     --jf-border-radius: 5px;
     --jf-border-radius-big: 15px;
 
-    --jf-input-border-color: lightgray;
+    --jf-input-border-color: rgba(0, 0, 0, 0.5);
     --jf-input-border-size: 1px;
 
     font-family: Arial, Helvetica, sans-serif;
