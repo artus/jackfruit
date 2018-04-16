@@ -1,3 +1,11 @@
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: stretch;
+}
+
 input
 {
     border: var(--jf-input-border-size) solid var(--jf-input-border-color);
