@@ -96,6 +96,86 @@ h6
     padding: var(--jf-padding-big);
 }
 
+.no-padding-top
+{
+    padding-top: 0;
+}
+
+.padding-top-small
+{
+    padding-top: var(--jf-padding-small);
+}
+
+.padding-top
+{
+    padding-top: var(--jf-padding);
+}
+
+.padding-top-big
+{
+    padding-top: var(--jf-padding-big);
+}
+
+.no-padding-bottom
+{
+    padding-bottom: 0;
+}
+
+.padding-bottom-small
+{
+    padding-bottom: var(--jf-padding-small);
+}
+
+.padding-bottom
+{
+    padding-bottom: var(--jf-padding);
+}
+
+.padding-bottom-big
+{
+    padding-bottom: var(--jf-padding-big);
+}
+
+.no-padding-left
+{
+    padding-left: 0;
+}
+
+.padding-left-small
+{
+    padding-left: var(--jf-padding-small);
+}
+
+.padding-left
+{
+    padding-left: var(--jf-padding);
+}
+
+.padding-left-big
+{
+    padding-left: var(--jf-padding-big);
+}
+
+.no-padding-right
+{
+    padding-right: 0;
+}
+
+.padding-right-small
+{
+    padding-right: var(--jf-padding-small);
+}
+
+.padding-right
+{
+    padding-right: var(--jf-padding);
+}
+
+.padding-right-big
+{
+    padding-right: var(--jf-padding-big);
+}
+
 /*
     Margin
 */
@@ -120,9 +200,34 @@ h6
     margin: var(--jf-margin-big);
 }
 
+.no-margin-left
+{
+    margin-left: 0;
+}
+
+.margin-left-small
+{
+    margin-left: var(--jf-margin-small);
+}
+
 .margin-left
 {
     margin-left: var(--jf-margin);
+}
+
+.margin-left-big
+{
+    margin-left: var(--jf-margin-big);
+}
+
+.no-margin-right
+{
+    margin-right: 0;
+}
+
+.margin-right-small
+{
+    margin-right: var(--jf-margin-small);
 }
 
 .margin-right
@@ -130,14 +235,49 @@ h6
     margin-right: var(--jf-margin);
 }
 
+.margin-right-big
+{
+    margin-right: var(--jf-margin-big);
+}
+
+.no-margin-top
+{
+    margin-top: 0;
+}
+
+.margin-top-small
+{
+    margin-top: var(--jf-margin-small);
+}
+
 .margin-top
 {
     margin-top: var(--jf-margin);
 }
 
+.margin-top-big
+{
+    margin-top: var(--jf-margin-big);
+}
+
+.no-margin-bottom
+{
+    margin-bottom: 0;
+}
+
+.margin-bottom-small
+{
+    margin-bottom: var(--jf-margin-small);
+}
+
 .margin-bottom
 {
     margin-bottom: var(--jf-margin);
+}
+
+.margin-bottom-big
+{
+    margin-bottom: var(--jf-margin-big);
 }
 
 /*
