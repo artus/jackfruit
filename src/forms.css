@@ -29,7 +29,7 @@ input
     margin-left: 0;
 }
 
-form-group label
+.form-group label
 {
     margin-bottom: var(--jf-padding-small);
 }
