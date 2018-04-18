@@ -54,22 +54,22 @@ h2
 
 h3
 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 h4
 {
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 
 h5
 {
-    font-size: 1.3em;
+    font-size: 0.9em;
 }
 
 h6
 {
-    font-size: 1.1em;
+    font-size: 0.7em;
 }
 
 /*
@@ -343,10 +343,37 @@ h6
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-.line
+/*
+    Lines, borders
+*/
+
+.no-lines, .no-borders, .no-border
+{
+    border: 0;
+}
+
+.line, .line-bottom
 {
     border-bottom: 1px solid var(--blt-color-2);
     margin-bottom: var(--blt-padding);
+}
+
+.line-top
+{
+    border-top: 1px solid var(--blt-color-2);
+    margin-top: var(--blt-padding);
+}
+
+.line-left
+{
+    border-left: 1px solid var(--blt-color-2);
+    margin-left: var(--blt-padding);
+}
+
+.line-right
+{
+    border-left: 1px solid var(--blt-color-2);
+    margin-right: 1px solid var(--blt-padding);
 }
 
 .last

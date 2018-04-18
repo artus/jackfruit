@@ -1,0 +1,28 @@
+{
+  "name": "jackfruit",
+  "version": "1.0.0",
+  "description": "Jackfruit is yet another (flexy) css framework.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artusvranken/jackfruit.git"
+  },
+  "keywords": [
+    "css",
+    "flexbox",
+    "css-framework",
+    "flex"
+  ],
+  "author": "Artus Vranken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artusvranken/jackfruit/issues"
+  },
+  "homepage": "https://github.com/artusvranken/jackfruit#readme"
+}

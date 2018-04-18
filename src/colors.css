@@ -35,7 +35,7 @@
     color: var(--jf-color-primary-foreground);
 }
 
-.button.primary:hover, .primary-hover
+.button.primary:hover, .primary-hover:hover
 {
     transition: var(--jf-hover-transition);
 
@@ -49,7 +49,7 @@
     color: var(--jf-color-secondary-foreground);
 }
 
-.button.secondary:hover, .secondary-hover
+.button.secondary:hover, .secondary-hover:hover
 {
     transition: var(--jf-hover-transition);
 
@@ -63,7 +63,7 @@
     color: var(--jf-color-danger-foreground);
 }
 
-.button.danger:hover, .secondary-hover
+.button.danger:hover, .secondary-hover:hover
 {
     transition: var(--jf-hover-transition);
 
@@ -77,7 +77,7 @@
     color: var(--jf-color-warning-foreground);
 }
 
-.button.warning:hover, .warning-hover
+.button.warning:hover, .warning-hover:hover
 {
     transition: var(--jf-hover-transition);
 
@@ -91,7 +91,7 @@
     color: var(--jf-color-neutral-foreground);
 }
 
-.button.neutral:hover, .neutral-hover
+.button.neutral:hover, .neutral-hover:hover
 {
     transition: var(--jf-hover-transition);
 

@@ -5,6 +5,11 @@
     flex-basis: 0;
 }
 
+.auto-size
+{
+    flex-basis: auto;
+}
+
 .row
 {
     flex-direction: row;
