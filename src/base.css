@@ -299,25 +299,6 @@ h6
 }
 
 /*
-    Borders
-*/
-
-.rounded-small
-{
-    border-radius: var(--jf-border-radius-small);
-}
-
-.rounded
-{
-    border-radius: var(--jf-border-radius);
-}
-
-.rounded-big
-{
-    border-radius: var(--jf-border-radius-big);
-}
-
-/*
     Key-value
 */
 .key-value
@@ -346,6 +327,21 @@ h6
 /*
     Lines, borders
 */
+
+.rounded-small
+{
+    border-radius: var(--jf-border-radius-small);
+}
+
+.rounded
+{
+    border-radius: var(--jf-border-radius);
+}
+
+.rounded-big
+{
+    border-radius: var(--jf-border-radius-big);
+}
 
 .no-lines, .no-borders, .no-border
 {
@@ -381,6 +377,10 @@ h6
     margin-right: 0;
 }
 
+/*
+    Scroll
+*/
+
 .scrollable-y
 {
     overflow-y: scroll;
@@ -399,4 +399,20 @@ h6
 .has-scrollable-child
 {
     overflow: hidden;
+}
+
+.word-wrap
+{
+    word-wrap: break-word;
+}
+
+.overflow-hidden
+{
+    overflow: hidden;
+}
+
+.hide-text-overflow
+{
+    width: 100%;
+    overflow-x: hidden;
 }
