@@ -1,0 +1,38 @@
+.gauge {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #335;
+  border-radius: 666em;
+  position: relative;
+}
+.gauge::before, .gauge::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom:0;
+  left: 0; right: 0;
+  border: 10px solid #335;
+  border-radius: 666em;
+  display: none;
+}
+.gauge::before{
+  clip: rect(0, 100px, 100px, 50px);
+}
+.gauge::after{
+  clip: rect(0, 50px, 100px, 0);  
+}
+.gauge[data-fill="25"]::before,
+.gauge[data-fill="50"]::before,
+.gauge[data-fill="75"]::before,
+.gauge[data-fill="100"]::before { 
+  display: block
+}
+.gauge[data-fill="25"]::before {
+  clip: rect(0, 100px, 50px, 50px);
+}
+
+.gauge[data-fill="75"]::after,
+.gauge[data-fill="100"]::after { display: block}
+
+.gauge[data-fill="75"]::after {
+  clip: rect(50px, 50px, 100px, 0); }

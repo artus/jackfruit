@@ -2,10 +2,11 @@
     Jackfruit css
 */
 @import url('./reset.css');
-@import url('./flex.css');
 @import url('./forms.css');
+@import url('./flex.css');
 @import url('./components.css');
 @import url('./buttons.css');
 @import url('./colors.css');
 @import url('./cursors.css');
+@import url('./gauge.css');
 @import url('./base.css');

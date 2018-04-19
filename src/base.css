@@ -411,8 +411,22 @@ h6
     overflow: hidden;
 }
 
-.hide-text-overflow
+.hide-text-overflow, .text-overflow-hidden
 {
-    width: 100%;
     overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.overflow-x-hidden
+{
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.overflow-y-hidden
+{
+    overflow-x: visible;
+    overflow-y: hidden;
 }
