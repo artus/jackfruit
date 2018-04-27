@@ -23,7 +23,8 @@ input, textarea
 */
 
 .form-group input,
-.form-group label
+.form-group label,
+.form-group textarea
 {
     margin-top: 0;
     margin-left: 0;
