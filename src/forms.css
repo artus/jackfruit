@@ -8,7 +8,7 @@
     padding: var(--jf-padding-small);
 }
 
-input
+input, textarea
 {
     border: var(--jf-input-border-size) solid var(--jf-input-border-color);
 
