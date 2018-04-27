@@ -51,6 +51,16 @@
     Justify content
 */
 
+.space-start
+{
+    justify-content: flex-start;
+}
+
+.space-end
+{
+    justify-content: flex-end;
+}
+
 .space-between
 {
     justify-content: space-between;
