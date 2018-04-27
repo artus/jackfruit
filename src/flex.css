@@ -51,12 +51,12 @@
     Justify content
 */
 
-.space-start
+.space-start, .flex-start
 {
     justify-content: flex-start;
 }
 
-.space-end
+.space-end, .flex-end
 {
     justify-content: flex-end;
 }
@@ -76,7 +76,7 @@
     justify-content: space-evenly
 }
 
-.space-center
+.space-center, .center
 {
     justify-content: center;
 }
