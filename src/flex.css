@@ -32,7 +32,30 @@
     height: 100%;
 }
 
-.basis-0
+/*
+Wrap
+*/
+
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+.wrap-revers
+{
+    flex-wrap: wrap-reverse;
+}
+
+.no-wrap
+{
+    flex-wrap: nowrap;
+}
+
+/*
+flex-basis
+*/
+
+.basis-0, .no-basis
 {
     flex-basis: 0;
 }
@@ -89,7 +112,7 @@
 /*
     Flex grow
 */
-.grow-0
+.grow-0, .no-grow
 {
     flex-grow: 0;
 }
@@ -153,7 +176,7 @@
     Shrink
 */
 
-.shrink-0
+.shrink-0, .no-shrink
 {
     flex-shrink: 0;
 }
