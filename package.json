@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "cleancss --level 2 -o ./min/jackfruit.min.css ./src/jackfruit.css"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/artusvranken/jackfruit/issues"
   },
-  "homepage": "https://github.com/artusvranken/jackfruit#readme"
+  "homepage": "https://github.com/artusvranken/jackfruit#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.1.11"
+  }
 }
