@@ -110,6 +110,30 @@ flex-basis
 }
 
 /*
+Align items
+*/
+
+.items-center, .center-items
+{
+    align-items: center;
+}
+
+.items-stretch, .stretch-items
+{
+    align-items: stretch;
+}
+
+.items-end, .end-items
+{
+    align-items: flex-end;
+}
+
+.items-start, .start-items
+{
+    align-items: flex-start;
+}
+
+/*
     Flex grow
 */
 .grow-0, .no-grow
