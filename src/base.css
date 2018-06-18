@@ -334,17 +334,17 @@ h6
 /*
     text-align
 */
-.text-left
+.text-left, .left-text
 {
     text-align: left;
 }
 
-.text-center
+.text-center, .center-text
 {
     text-align: center;
 }
 
-.text-right
+.text-right, .right-text
 {
     text-align: right;
 }
