@@ -3,6 +3,8 @@
     border: 0;
     border-radius: var(--jf-border-radius);
     cursor: pointer;
+
+    font-size: 1em;
 }
 
 .button-small

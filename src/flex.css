@@ -1,4 +1,4 @@
-.row, .column
+.row, .column, .row-reverse, .column-reverse
 {
     display: flex;
 
@@ -6,7 +6,7 @@
     min-width: 0;
 }
 
-.row *, column *
+.row *, column *, .row-reverse, .column-reverse
 {
     min-width: 0;
 }
@@ -21,9 +21,19 @@
     flex-direction: row;
 }
 
+.row-reverse
+{
+    flex-direction: row-reverse;
+}
+
 .column
 {
     flex-direction: column;
+}
+
+.column-reverse
+{
+    flex-direction: column-reverse;
 }
 
 .fill-parent

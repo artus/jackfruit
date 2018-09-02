@@ -12,8 +12,7 @@ input, textarea
 {
     border: var(--jf-input-border-size) solid var(--jf-input-border-color);
 
-    padding: var(--jf-padding-small);
-    margin: var(--jf-margin-small);
+    padding: var(--jf-padding);
 
     border-radius: var(--jf-border-radius);
 }

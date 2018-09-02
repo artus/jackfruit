@@ -1,0 +1,70 @@
+/* Top Dividers */
+
+.divider-top
+{
+  border-top: 1px;
+}
+
+.divider-top-big
+{
+  border-top: 2px;
+}
+
+/* Right Dividers */
+
+.divider-right
+{
+  border-right: 1px;
+}
+
+.divider-right-big
+{
+  border-right: 2px;
+}
+
+/* Bottom Dividers */
+
+.divider-bottom
+{
+  border-bottom: 1px;
+}
+
+.divider-bottom-big
+{
+  border-bottom: 2px;
+}
+
+/* Left Dividers */
+
+.divider-left
+{
+  border-left: 1px;
+}
+
+.divider-left-big
+{
+  border-left: 2px;
+}
+
+/* Divider styles */
+
+.divider-light, .divider, .divider-heavy
+{
+  border-style: solid;
+}
+
+.divider-light
+{
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.divider
+{
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.divider-heavy
+{
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
